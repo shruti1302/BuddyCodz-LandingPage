@@ -19,7 +19,9 @@ body {
 }
 
 .main-section {
-  padding-bottom: 180px;
+  /* padding-bottom: 180px; */
+  /* height: 1000px; */
+  height: 100vh;
 }
 
 /* canvas {
@@ -106,4 +108,123 @@ section {
 .about-img {
   /* margin-left: 50px; */
   width: 90%;
+}
+
+.module:nth-child(even) {
+  margin-right: 0;
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+/* 
+.come-in:nth-child(odd) {
+  animation-duration: 0s;
+} */
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
+}
+
+.about-content {
+  margin-top: 60px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.about-img {
+  /* margin-left: 50px; */
+  width: 100%;
+  height: 100%;
+}
+
+.about-container {
+  /* padding-bottom: 200px; */
+  padding: 7% 10%;
+}
+
+.vision-content {
+  /* margin-top: 60px; */
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0% 10% 5%;
+}
+
+.vision-card2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/59c06fea49fc2b2ac8b90d77/1506616928483-B7IH952VB1JE1V2KSHZF/ke17ZwdGBToddI8pDm48kNUNsbxa-1ftaDGIVMB32aZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzZGLaZEy-KzdcvDgLoH8ebcwVsYMYWbF6MmK__Zo5ZUxFShsVMM9W3FDPoAdkLID0/kids_using_computers_online_safely-630x350_1.jpg');
+  background-size: cover;
+}
+
+.layer2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(140, 40, 62, 0.55);
+}
+.vision-card1 {
+  background-image: url('https://media.apnarm.net.au/media/images/2018/02/28/b881247985z1_20180228095529_000gja10anj83-0-pookluo4l0i4gdekup2_fct1919x1425x184x31_t1880.jpg');
+  background-size: cover;
+}
+
+.layer1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(238, 215, 9, 0.55);
+}
+
+.vision-card3 {
+  background-image: url('https://images1.whatuni.com/commimg/myhotcourses/blog/post/myhc_81621.jpg');
+
+  background-size: cover;
+}
+
+.layer3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(16, 134, 144, 0.55);
+}
+
+.section-heading2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #8a2c02;
+  margin-left: 130px;
+}
+
+.v-card {
+  padding: 7% 10%;
+  color: white;
+  height: 60vh;
+  text-align: center;
+}
+
+.vision-heading {
+  margin-top: 8vh;
+  margin-bottom: 4vh;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.highlight-icon {
+  /* margin: 30px auto 0; */
+  height: 56px;
+  width: 56px;
+  margin-right: 20px;
+}
+
+.vision-section {
+  padding-bottom: 10vh;
+}
+
+.highlight-section {
+  padding: 5vh 0vh 10vh;
 }
