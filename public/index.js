@@ -27,7 +27,7 @@ particlesJS('particles-js', {
     },
     move: {
       enable: true,
-      speed: 5,
+      speed: 3,
       direction: 'none',
       random: true,
       straight: false,
@@ -52,7 +52,7 @@ particlesJS('particles-js', {
         opacity: 0.7308694910712106,
         speed: 3,
       },
-      repulse: { distance: 97.44926547616141, duration: 0.4 },
+      repulse: { distance: 140, duration: 0.4 },
       push: { particles_nb: 4 },
       remove: { particles_nb: 2 },
     },

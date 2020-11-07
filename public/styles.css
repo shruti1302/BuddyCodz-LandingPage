@@ -54,7 +54,7 @@ body {
 
 .title-container {
   /* z-index: 1; */
-  color: #ffde59;
+  color: #f7b744;
   padding-top: 100px;
 }
 
@@ -78,8 +78,8 @@ body {
   margin-top: 15%;
   letter-spacing: 2px;
   font-weight: 600;
-  color: #ffde59;
-  border: 5px solid #ffde59;
+  color: #f7b744;
+  border: 5px solid #f7b744;
   text-transform: uppercase;
   transition: 0.3s;
   background-color: #000;
@@ -100,23 +100,13 @@ section {
   letter-spacing: 2px;
   color: #8a2c02;
 }
-
-.about-content {
-  margin-top: 60px;
-}
-
-.about-img {
-  /* margin-left: 50px; */
-  width: 90%;
-}
-
-.module:nth-child(even) {
+/* .module:nth-child(even) {
   margin-right: 0;
-}
+} */
 
 .come-in {
   transform: translateY(150px);
-  animation: come-in 0.8s ease forwards;
+  animation: come-in 1s ease forwards;
 }
 /* 
 .come-in:nth-child(odd) {
@@ -134,6 +124,12 @@ section {
   }
 }
 
+.about-container {
+  padding: 7% 10%;
+  /* width: 60%; */
+  /* margin-left: 10%; */
+}
+
 .about-content {
   margin-top: 60px;
   font-size: 1.2rem;
@@ -141,21 +137,16 @@ section {
 }
 
 .about-img {
-  /* margin-left: 50px; */
   width: 100%;
   height: 100%;
-}
-
-.about-container {
-  /* padding-bottom: 200px; */
-  padding: 7% 10%;
 }
 
 .vision-content {
   /* margin-top: 60px; */
   font-size: 1.2rem;
   font-weight: 500;
-  padding: 0% 10% 5%;
+  /* padding: 0% 10% 5%; */
+  padding-bottom: 5%;
 }
 
 .vision-card2 {
@@ -181,8 +172,8 @@ section {
 
 .vision-card3 {
   background-image: url('https://images1.whatuni.com/commimg/myhotcourses/blog/post/myhc_81621.jpg');
-
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .layer3 {
@@ -196,7 +187,7 @@ section {
   font-weight: 700;
   letter-spacing: 2px;
   color: #8a2c02;
-  margin-left: 130px;
+  /* margin-left: 130px; */
 }
 
 .v-card {
@@ -204,6 +195,15 @@ section {
   color: white;
   height: 60vh;
   text-align: center;
+}
+
+.v-card-bg {
+  transition: 0.5s;
+}
+
+.v-card-bg:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
 }
 
 .vision-heading {
@@ -216,15 +216,90 @@ section {
 
 .highlight-icon {
   /* margin: 30px auto 0; */
-  height: 56px;
-  width: 56px;
+  height: 72px;
+  width: 72px;
   margin-right: 20px;
+  color: yellow;
 }
 
-.vision-section {
+.item-container {
+  transition: 0.4s;
+}
+.item-container:hover {
+  box-shadow: rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px;
+
+  /* box-shadow: rgba(90, 90, 90, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+}
+
+/* .vision-section {
   padding-bottom: 10vh;
+} */
+
+section {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.highlight-section {
-  padding: 5vh 0vh 10vh;
+/* .highlight-section {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+} */
+
+@media (max-width: 484px) {
+  .section-heading2 {
+    margin-left: 5vh;
+  }
+}
+
+.testimonial-section {
+  /* background-color: #ffde59; */
+  background-color: #013a6b;
+  background-image: -webkit-linear-gradient(110deg, #f7b744 50%, #eeece0 50%);
+}
+
+.testimonial-card {
+  width: 90%;
+  background-color: #fff;
+  /* min-height: 65vh; */
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.testimonial-card img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 16px;
+}
+
+.card:hover {
+  border: 3px solid;
+  /* transform: scale(1.02); */
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6); */
+}
+
+.alternate-section {
+  background-color: #eeece0;
+}
+
+.vision-section,
+.about-section {
+  padding-bottom: 0;
+}
+
+.card svg {
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 500px) {
+  .section-heading,
+  .section-heading2 {
+    font-size: 2rem;
+    letter-spacing: 0px;
+    margin: auto;
+  }
 }
