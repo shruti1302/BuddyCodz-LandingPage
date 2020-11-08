@@ -18,41 +18,62 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <a class="navbar-brand" href="#">
-                <img src="./Logo Buddy Codz-page-003.jpg" width="120" class="d-inline-block align-top ml-5" alt=""
-                    loading="lazy">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto">
+                    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                        <a class="navbar-brand" href="#">
+                            <img src="./Logo Buddy Codz-page-003.jpg" width="120" class="d-inline-block align-top"
+                                alt="" loading="lazy">
 
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto ml-5">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto ml-5">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item ml-2">
+                                    <a class="nav-link" href="#about-section">About</a>
+                                </li>
+                                <li class="nav-item ml-2">
+                                    <a class="nav-link" href="#courses-section">Courses</a>
+                                </li>
+                                <li class="nav-item ml-2">
+                                    <a class="nav-link" href="#footer">Contact</a>
+                                </li>
+                                <button type="button" type="button" class="register-btn ml-5">
+                                    <a href="register.html">Register
+                                        Now!</a></button>
 
 
-                </ul>
 
+                            </ul>
+
+                        </div>
+                    </nav>
+
+
+
+
+
+
+
+                </div>
             </div>
-        </nav>
+
+
+        </div>
+
 
     </header>
 
-    <section class="main-section text-center">
+    <section id="main-section" class="main-section text-center">
         <div class="main-section-container">
             <div id="particles-js">
             </div>
@@ -63,7 +84,7 @@
                     <div class="tagline mt-3">Lorem ipsum dolor sit elit, sed do eiusmod tempor!
                     </div>
 
-                    <button type="button" class="main-button"> Register Now!</button>
+                    <button type="button" class="main-button"><a href="register.html"> Register Now!</a> </button>
 
 
                 </div>
@@ -75,13 +96,11 @@
 
     </section>
 
-
-
-    <section class="about-section">
-        <div class="container-fluid">
+    <section id="about-section" class="about-section">
+        <div class="container-fluid module">
 
             <div class="row">
-                <div class="col-sm-8 about-container">
+                <div class="col-sm-12 col-md-8 about-container">
                     <div class="section-heading mt-5 mb-3 ">
                         ABOUT US
                     </div>
@@ -102,7 +121,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-4" style="padding-right: 0; padding-left: 0;">
+                <div class="col-sm-12 col-md-4" style="padding-right: 0; padding-left: 0;">
                     <img src="girl.jpg" alt="" class="about-img">
 
                 </div>
@@ -130,7 +149,7 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 0; padding-right: 0;">
+                <div class="col-xs-12 col-sm-12 col-md-4 " style="padding-left: 0; padding-right: 0;">
 
                     <div class=" vision-card1 v-card-bg ">
                         <div class="layer1 v-card">
@@ -152,7 +171,7 @@
                     </div>
 
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 0; padding-right: 0;">
+                <div class="col-xs-12 col-sm-12 col-md-4 " style="padding-left: 0; padding-right: 0;">
                     <div class=" vision-card2 v-card-bg">
                         <div class="layer2 v-card">
                             <div class="vision-heading">
@@ -173,7 +192,7 @@
                     </div>
 
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 0; padding-right: 0;">
+                <div class="col-xs-12 col-sm-12 col-md-4" style="padding-left: 0; padding-right: 0;">
                     <div class=" vision-card3 v-card-bg">
                         <div class="layer3 v-card">
                             <div class="vision-heading">
@@ -313,10 +332,73 @@
         </div>
     </section>
 
+    <section class="free-trial alternate-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 mx-auto">
+                    <h2 class="mb-2">Certified Professional Courses</h2>
+                    <button class="trial-button mt-5 slide-btn">
+                        <a href="register.html">Book a free trial</a></button>
 
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="courses-section" class="courses-section">
+        <div class="container">
+            <div class="section-heading mb-5">
+                COURSES OFFERED
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <div class="course-card module">
+                        <img src="https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg"
+                            class="card-img-top course-card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="course-card module">
+                        <img src="https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg"
+                            class="card-img-top course-card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="course-card module">
+                        <img src="https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg"
+                            class="card-img-top course-card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <section class="testimonial-section">
-
 
         <div class="container">
 
@@ -665,6 +747,80 @@
             </div>
             <!-- Grid row -->
         </div>
+    </section>
+
+    <section id="footer" class="footer shadow-top" style="padding-top: 2%; padding-bottom: 3%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-sm-12 col-xs-12">
+                    <div class="info">
+                        <a href="#main-section"><img src="./Logo Buddy Codz-page-003.jpg" alt=""
+                                class="logo-footer"></a>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-xs-12">
+                    <div class="info">
+                        <div class="info-label mb-2">Email us at</div>
+                        <div class="info-content">
+                            <a href="mailto:buddycodz@gmail.com" style="color: white">
+                                buddycodz@gmail.com
+
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 col-xs-12">
+                    <div class="info">
+                        <div class="info-label mb-2">Call us at</div>
+                        <div class="info-content">+91 8765432108</div>
+                        <div class="info-content">+91 9876543215</div>
+
+
+                    </div>
+                </div>
+                <div class='col-lg-2 col-sm-12 col-xs-12 '>
+                    <div class="info">
+                        <div class='info-label mb-2'>Follow us on</div>
+                        <div class='info-content'>
+                            <span>
+                                <a href="http://bit.ly/buddycodzfb">
+                                    <img src='https://img.icons8.com/ios-glyphs/40/ffffff/facebook.png' alt='' />
+                                </a>
+                            </span>
+                            <span>
+                                <a href="http://bit.ly/buddycodzig">
+                                    <img src='https://img.icons8.com/material-outlined/40/ffffff/instagram-new.png'
+                                        alt='' />
+                                </a>
+
+                            </span>
+                            <span>
+                                <a href="http://bit.ly/buddycodzin">
+                                    <img src='https://img.icons8.com/ios-filled/40/ffffff/linkedin.png' alt='' />
+                                </a>
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-sm-12 col-xs-12 ">
+                    <div class="info">
+                        <div class="info-label mb-2">Address</div>
+                        <div class="info-content">407, New Mohan Puri, </div>
+                        <div class="info-content">Meerut -25001</div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </section>
 
     <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> stats.js lib -->
