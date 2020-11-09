@@ -94,3 +94,11 @@ win.scroll(function (event) {
     }
   });
 });
+
+$('.navbar-collapse a').click(function () {
+  $('.navbar-collapse').collapse('hide');
+});
+
+$('.navbar-collapse .btn').click(function () {
+  $('.navbar-collapse').collapse('hide');
+});
