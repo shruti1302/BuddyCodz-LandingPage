@@ -109,7 +109,7 @@ form {
   align-items: baseline;
 }
 
-form button {
+ .button1 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -134,7 +134,7 @@ form button {
   transition: ease-out 0.5s;
 }
 
-form button:hover {
+.button1:hover {
   box-shadow: inset 600px 0 0 0 #043f44;
   color: white;
 }
@@ -281,6 +281,12 @@ form button:hover {
   box-shadow: rgba(255, 255, 255, 0.4) 0px 18px 50px -10px;
 }
 
+
+
+.form-intro{
+  padding-bottom: 5vh;
+}
+
 .gifs {
   width: 100%;
 }
@@ -396,4 +402,77 @@ form button:hover {
   .info-content {
     font-size: ;
   }
+}
+
+
+
+
+
+.modules-and-topics-container {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.module {
+  cursor: pointer;
+}
+
+.no-of-topics .content,
+.no-of-classes .content {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.button2 a{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+  /* .title1 {
+    font-size: 32px;
+  } */
+
+  .module-container .name {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .module-container .name {
+    font-size: 18px;
+  }
+}
+
+
+
+
+.register-btn {
+  border: 0px;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 10px 20px;
+  /* margin-top: 15%; */
+  /* letter-spacing: px; */
+  font-weight: 700;
+  background-color: #f7b744;
+  color: white;
+  /* border: 5px solid #f7b744; */
+  text-transform: uppercase;
+  transition: 0.3s;
+  /* background-color: #000; */
+}
+
+.register-btn:hover {
+  box-shadow: 0px 0px 0px 1px rgb(0, 0, 0), 0px 0px 0px 4px #f1c40f,
+    0px 0px 0px 6px black, 0px 0px 0px 8px #f1c40f;
+  background: black;
+  color: #f7b744;
 }
